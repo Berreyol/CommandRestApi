@@ -1,8 +1,8 @@
-#CommanderRestApi
+# CommanderRestApi
 
 This is just a tutorial in c# using entity framework
 
-##Configuration
+## Configuration
 To run the Rest api you will need to apply database migrations
 
 Run:
