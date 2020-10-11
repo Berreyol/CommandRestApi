@@ -1,6 +1,6 @@
 # CommanderRestApi
 
-This is just a tutorial in c# using entity framework
+This is just an example of a Rest API in c# using entity framework
 
 ## Configuration
 To run the Rest api you will need to apply database migrations
