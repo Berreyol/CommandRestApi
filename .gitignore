@@ -1,2 +1,10 @@
+# Build Results
+
 obj/
 bin/
+
+# Visual Studio Code
+.vscode
+
+# Schemas
+*.db
