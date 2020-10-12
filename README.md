@@ -7,7 +7,6 @@ To run the Rest api you will need to apply database migrations
 
 Run:
 ```.NET
-dotnet ef migrations add InitialMigration
 dotnet ef database update
 ```
 
