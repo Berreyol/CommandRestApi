@@ -36,6 +36,7 @@ namespace Commander
                 s.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
             });
 
+            services.AddCors(); // Make sure you call this previous to AddMvc
 
             services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
 
@@ -47,9 +48,17 @@ namespace Commander
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-            }
+            }   
 
             app.UseHttpsRedirection();
+
+            app.UseCors(
+                    options => {
+                        options.AllowAnyOrigin();
+                        options.AllowAnyMethod();
+                        options.AllowAnyHeader();
+                    }
+            );
 
             app.UseRouting();
 

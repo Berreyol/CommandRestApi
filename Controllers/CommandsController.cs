@@ -56,7 +56,10 @@ namespace Commander.Controllers
             if (commandModelFromRepo == null) {
                 return NotFound();
             }
-
+            commandModelFromRepo.HowTo = command.HowTo;
+            commandModelFromRepo.Line = command.Line;
+            commandModelFromRepo.Plataform = command.Plataform;
+            
             _repository.UpdateCommand(commandModelFromRepo);
             _repository.SaveChanges();
 

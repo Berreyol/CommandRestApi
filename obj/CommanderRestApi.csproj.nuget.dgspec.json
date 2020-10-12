@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/berre/CommanderRestApi/CommanderRestApi.csproj": {}
+    "/home/berre/Develop/personal/c#/CommandRestApi/CommanderRestApi.csproj": {}
   },
   "projects": {
-    "/home/berre/CommanderRestApi/CommanderRestApi.csproj": {
+    "/home/berre/Develop/personal/c#/CommandRestApi/CommanderRestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/berre/CommanderRestApi/CommanderRestApi.csproj",
+        "projectUniqueName": "/home/berre/Develop/personal/c#/CommandRestApi/CommanderRestApi.csproj",
         "projectName": "CommanderRestApi",
-        "projectPath": "/home/berre/CommanderRestApi/CommanderRestApi.csproj",
+        "projectPath": "/home/berre/Develop/personal/c#/CommandRestApi/CommanderRestApi.csproj",
         "packagesPath": "/home/berre/.nuget/packages/",
-        "outputPath": "/home/berre/CommanderRestApi/obj/",
+        "outputPath": "/home/berre/Develop/personal/c#/CommandRestApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/berre/.nuget/NuGet/NuGet.Config"
